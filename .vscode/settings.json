@@ -1,0 +1,46 @@
+{   
+    "configurations": [
+        {
+            
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "D:\\ESP32\\msys32\\home\\helloworld\\esp\\ESP8266_RTOS_SDK\\components",
+                "D:\\ESP32\\msys32\\home\\helloworld\\esp\\ESP8266_RTOS_SDK\\components\\newlib\\include",
+                "D:/Project/ESP32/esp/esp-idf/components/esp32/include",
+                "${workspaceFolder}/components/user_driver/include",
+                "D:/Project/Espressif/ESP-IDF Tools/toolchain/lib/gcc/xtensa-esp32-elf/5.2.0/include",
+                "D:/Project/ESP32/esp/esp-idf/components/driver/include",
+                "D:/Project/ESP32/esp/esp-idf/components/soc/esp32/include",
+                "D:/Project/ESP32/esp/esp-idf/components/freertos/include",
+                "${workspaceFolder}/build/config",
+                "D:/Project/ESP32/esp/esp-idf/components/log/include",
+                "D:/Project/ESP32/esp/esp-idf/components/heap/include",
+                "D:/Project/ESP32/esp/esp-idf/components/soc/include",
+                "D:/Project/ESP32/esp/esp-idf/components/spi_flash/include",
+                "D:/Project/ESP32/esp/esp-idf/components/tcpip_adapter/include",
+                "D:/Project/ESP32/esp/esp-idf/components/lwip/include/lwip",
+                "D:/Project/ESP32/esp/esp-idf/components/lwip/include/lwip/port",
+                "D:/Project/ESP32/esp/esp-idf/components/vfs/include",
+                "D:/Project/ESP32/esp/esp-idf/components/nvs_flash/include",
+                "D:/Project/ESP32/esp/esp-idf/components/newlib/platform_include",
+                "D:/Project/ESP32/esp/esp-idf/components/mbedtls/mbedtls/include",
+                "D:/Project/ESP32/esp/esp-idf/components/json/cJSON",
+                "D:/Project/ESP32/esp/esp-idf/components/wpa_supplicant/port/include"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceRoot}",
+                    "D:\\ESP32\\msys32\\home\\helloworld\\esp\\ESP8266_RTOS_SDK\\components",    ///< 实际esp-idf路径下的components的路径
+                    "D:\\ESP32\\msys32\\home\\helloworld\\esp\\xtensa-lx106-elf" ///< 工具链实际路径
+                ]
+            },
+            //terminal 
+            "terminal.integrated.shell.windows": "D:\\ESP32\\msys32\\msys2_shell.cmd",
+            "terminal.integrated.shellArgs.windows": ["-defterm", "-mingw32", "-no-start", "-here"]
+        }
+    ],
+    "version": 4
+}
